@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: url(https://picsum.photos/1000/1000?random);
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#store-name{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.banner{
+    background: url(https://picsum.photos/1000/1000?random);
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 60px;
+    color: white;
+    font-size: 30px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
