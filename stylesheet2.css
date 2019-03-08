@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background: url(https://picsum.photos/1000/1000?random);
+    background-color: darkseagreen;
     -webkit-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -26,4 +26,20 @@ html, body{
     width: 100%;
     height: 100%;
     display: block;
+}
+.main-container{
+    margin-left: 5%;
+    text-align: center;
+}
+#item-layout{
+    width: 70%;
+    margin: 0 auto;
+}
+.items{
+    float: left;
+    padding: 1rem;
+    
+
+    
+
 }
