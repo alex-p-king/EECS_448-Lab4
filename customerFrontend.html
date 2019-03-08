@@ -4,6 +4,7 @@
 <head>
     <title> Lab 4: Exercise 3 </title>
     <link rel="stylesheet" href="stylesheet2.css" />
+    <script src="formChecker.js"></script>
 </head>
 
 <body>
@@ -16,25 +17,50 @@
         <div id="item-layout">
             <div class="items">
                 <h3>Item-1</h3>
-                <img  id="image-1" src="https://picsum.photos/300/200?random">
-                <p>This is a short item description</p>
-                <button>Buy Now</button>
+                <img id="image-1" src="https://picsum.photos/300/200?random">
+                <p class="item-prices">Price: 199.00</p>
+                <p class="item-prices">This is a short description of the item. here are some of the features that the
+                    item has, it is a very cool thing to own, you should definitely buy it</p>
+                <button onclick="buyItem1()" id="first-button">Buy Now</button>
             </div>
 
             <div class="items">
-                    <h3>Item-2</h3>
-                    <img  id="image-2" src="https://picsum.photos/300/200?random">
-                    <p>This is a short item description</p>
-                    <button>Buy Now</button>
+                <h3>Item-2</h3>
+                <img id="image-2" src="https://picsum.photos/300/200?random">
+                <p class="item-prices">Price: 1458.00</p>
+                <p class="item-prices">This is a short description of the item. here are some of the features that the
+                    item has, it is a very cool thing to own, you should definitely buy it</p>
+                <button onclick="buyItem2()" id="second-button">Buy Now</button>
             </div>
             <div class="items">
-                    <h3>Item-3</h3>
-                    <img  id="image-3" src="https://picsum.photos/300/200?random">
-                    <p>This is a short item description</p>
-                    <button>Buy Now</button>
+                <h3>Item-3</h3>
+                <img id="image-3" src="https://picsum.photos/300/200?random">
+                <p class="item-prices">Price: 238.00</p>
+                <p class="item-prices">This is a short description of the item. here are some of the features that the
+                    item has, it is a very cool thing to own, you should definitely buy it</p>
+                <button onclick="buyItem3()" id="third-button">Buy Now</button>
             </div>
-    </div>
+
+        </div>
+
+
 
 </body>
+<footer id="footer">
+    <div id="customer-info-wrapper">
+        <h1>Please Enter your information</h1>
+        <form id="user-info-form">
+            <h3>Username:</h3> <input id="username-field" type="text" value="" ><br>
+            <h3>Password:</h3><input id="password-field" type="text" value=""><br>
+            <h3>Select Shipping Option</h3>
+            <div id="radio-buttons">
+                <input type="radio">7-day: free <br>
+                <input type="radio">3-day: $5.00<br>
+                <input type="radio">overnight: $50.00<br>
+            </div>
+
+        </form>
+    </div>
+</footer>
 
 </html>

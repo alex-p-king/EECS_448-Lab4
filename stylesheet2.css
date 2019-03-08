@@ -30,16 +30,36 @@ html, body{
 .main-container{
     margin-left: 5%;
     text-align: center;
+    display: block;
 }
 #item-layout{
     width: 70%;
     margin: 0 auto;
 }
+.item-prices{
+    text-align: left;
+}
 .items{
+    width: 300px;
     float: left;
     padding: 1rem;
-    
-
-    
-
+}
+#customer-info-wrapper{
+    float: none;
+    display: block;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+#radio-buttons{
+    text-align: left;
+    padding-left: 40%;
+}
+#footer{
+    display: block;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 30%;
+    height: 500px;
+    width: 500px;
 }
